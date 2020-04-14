@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+​
+<style>
+  body{
+  background-color:grey;
+    }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    }
+  li {
+    float: left;
+    }
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      }
+    li a:hover {
+    background-color: blue;
+    }
+    ul {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+      #papa{
+        border: 3px solid blue;
+        border-radius: 90px;
+        padding: 10px;
+        width: 50px;
+        border-color:none;
+        font-size: 20px;
+        border-style: bold;
+      }
+      #box1{
+        border: 1px solid black;
+        float: left;
+        width: 60%;
+        margin-top:50px;
+        margin-left: 20px;
+        padding-right: 10px;
+      }
+      #suggestions{
+        margin-left:50px;
+        margin-top:20px;
+        border: 1px solid black;
+        float: left;
+        height: 100%;
+        width: 30%;
+        padding: 10px;
+        padding-top: 2px;
+        font-size:20px;
+      }
+      #box2{
+        margin-left:50px;
+        margin-top:50px;
+        border: 1px solid black;
+        float: left;
+        height: 275px;
+        width: 30%;
+        padding: 10px;
+        padding-top: 2px;
+        }
+      #box3{
+        margin-top:20px;
+        height: 100%;
+        width: 100%;
+        padding-top: 2px;
+      }
+      #box4{
+        margin-top: 5%;
+     }
+      iframe{
+        width: 100%;
+      }
+      h1{
+        color: white;
+      }
+    img{
+     width: 100%;
+    }
+  </style>
+  <title>Youtube Test</title>
+</head>
+<body>
+  <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+  <div id="papa">
+    <a href="default.asp" target="_blank">
+      <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngnames.com%2Ffiles%2F3%2FYoutube-Logo-Transparent-Background.png&f=1&nofb=1" >
+    </a>
+  </div>
+  <div id="box1">
+    <h1> Box #1</h1>
+    <iframe width="340" height="500" src="https://www.youtube.com/embed/C6BBPCdBKIk" allowfullscreen></iframe>
+    <h3><span style="color:red"> Introduction</span> <span style="color:green">To New PapaTube video/Tutorial To Make Free Intros!</span></h3>
+    <p style="color:white;"> This Tutorial Will Explain How To Make An Intro For Youtube Videos For Free<br> Learn how to build intro for your
+      website and more about us<br></p>
+  </div>
+  <h2  style="text-align:center;"> Up Next:</h2>
+  <div id="box2">
+    <h1> Box #2 </h1>
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/ZP_8EkHYnww" allowfullscreen></iframe>
+  </div>
+  <div id="suggestions"> Suggestions :
+    <div id="box3" class='suggested'>
+      <iframe width="300" height="200" src="https://www.youtube.com/embed/FszQelEQ2KY" allowfullscreen></iframe>
+    </div>
+    <div id="box4" class='suggested'>
+      <iframe width="300" height="200" src="https://www.youtube.com/embed/9-nYUUhigTU" allowfullscreen></iframe>
+    </div>
+  </div>
+</body>
+</html>
+
