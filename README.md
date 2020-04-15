@@ -6,6 +6,8 @@ This is a sample readme file for my GitHub repo. I'm learning Markdown.
 * Markdown is really fast
 * Absolutely efficient and cool right?
 
+## Link Example
+
 [I'm an inline-style link](https://www.google.com)
 
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
